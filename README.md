@@ -17,13 +17,13 @@ My first Spring Boot project to manage Products, Vendors, and Employees with int
 
 ---
 
-## 🔐 Authentication & Authorization
+##Authentication & Authorization
 
-### 🔑 User Roles:
+### User Roles:
 - `ADMIN` – Can perform CRUD on all endpoints.
 - `USER` – Can **only view products** (`GET`).
 
-### 🧪 Sample Users (Already in MySQL DB):
+###Sample Users (Already in MySQL DB):
 
 | Username | Password | Role  |
 |----------|----------|-------|
@@ -34,9 +34,9 @@ My first Spring Boot project to manage Products, Vendors, and Employees with int
 
 ---
 
-## 📦 Modules & Endpoints
+## Modules & Endpoints
 
-### ✅ Product APIs
+###Product APIs
 
 | Method | Endpoint           | Access   |
 |--------|--------------------|----------|
